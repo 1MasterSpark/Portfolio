@@ -1,0 +1,1 @@
+This code is for making automated edits to Wikipedia. It currently doesn't do much, but when I want to automate some change to a large number of pages, I change this code to suit my purposes. My username and password are censored.
