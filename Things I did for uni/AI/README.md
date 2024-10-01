@@ -1,0 +1,3 @@
+These two bots, RobotNav and iengine, were created as part of a unit on AI. Both of them include detailed reports.
+* RobotNav navigates a maze. The user has 7 different search algorithms to choose from, and there is also a GUI that displays the nodes being searched and the path the robot eventually find.
+* iengine is an Inference Engine that determines whether a certain statement is true or false by making inferences from other statements. Three different algorithms to do this were implemeted: Forward Chaining, Backward Chaining and Truth Tables.
