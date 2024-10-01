@@ -1,0 +1,15 @@
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\bin\Debug\net6.0\saving.exe
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\bin\Debug\net6.0\saving.deps.json
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\bin\Debug\net6.0\saving.runtimeconfig.json
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\bin\Debug\net6.0\saving.dll
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\bin\Debug\net6.0\saving.pdb
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\obj\Debug\net6.0\saving.csproj.AssemblyReference.cache
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\obj\Debug\net6.0\saving.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\obj\Debug\net6.0\saving.AssemblyInfoInputs.cache
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\obj\Debug\net6.0\saving.AssemblyInfo.cs
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\obj\Debug\net6.0\saving.csproj.CoreCompileInputs.cache
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\obj\Debug\net6.0\saving.dll
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\obj\Debug\net6.0\refint\saving.dll
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\obj\Debug\net6.0\saving.pdb
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\obj\Debug\net6.0\saving.genruntimeconfig.cache
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\saving\obj\Debug\net6.0\ref\saving.dll

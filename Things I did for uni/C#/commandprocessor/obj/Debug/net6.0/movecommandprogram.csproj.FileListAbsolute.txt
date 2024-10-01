@@ -1,0 +1,30 @@
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\bin\Debug\net6.0\movecommandprogram.exe
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\bin\Debug\net6.0\movecommandprogram.deps.json
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\bin\Debug\net6.0\movecommandprogram.runtimeconfig.json
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\bin\Debug\net6.0\movecommandprogram.dll
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\bin\Debug\net6.0\movecommandprogram.pdb
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\obj\Debug\net6.0\movecommandprogram.csproj.AssemblyReference.cache
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\obj\Debug\net6.0\movecommandprogram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\obj\Debug\net6.0\movecommandprogram.AssemblyInfoInputs.cache
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\obj\Debug\net6.0\movecommandprogram.AssemblyInfo.cs
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\obj\Debug\net6.0\movecommandprogram.csproj.CoreCompileInputs.cache
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\obj\Debug\net6.0\movecommandprogram.dll
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\obj\Debug\net6.0\refint\movecommandprogram.dll
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\obj\Debug\net6.0\movecommandprogram.pdb
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\obj\Debug\net6.0\movecommandprogram.genruntimeconfig.cache
+C:\Users\mamdo\OneDrive\Desktop\mark\C#\movecommandprogram\obj\Debug\net6.0\ref\movecommandprogram.dll
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\bin\Debug\net6.0\movecommandprogram.exe
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\bin\Debug\net6.0\movecommandprogram.deps.json
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\bin\Debug\net6.0\movecommandprogram.runtimeconfig.json
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\bin\Debug\net6.0\movecommandprogram.dll
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\bin\Debug\net6.0\movecommandprogram.pdb
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\obj\Debug\net6.0\movecommandprogram.csproj.AssemblyReference.cache
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\obj\Debug\net6.0\movecommandprogram.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\obj\Debug\net6.0\movecommandprogram.AssemblyInfoInputs.cache
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\obj\Debug\net6.0\movecommandprogram.AssemblyInfo.cs
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\obj\Debug\net6.0\movecommandprogram.csproj.CoreCompileInputs.cache
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\obj\Debug\net6.0\movecommandprogram.dll
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\obj\Debug\net6.0\refint\movecommandprogram.dll
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\obj\Debug\net6.0\movecommandprogram.pdb
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\obj\Debug\net6.0\movecommandprogram.genruntimeconfig.cache
+c:\Users\BoomF\Not OneDrive\Desktop\Cool\Coding\Portfolio\Things I did for uni\C#\commandprocessor\obj\Debug\net6.0\ref\movecommandprogram.dll

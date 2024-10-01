@@ -1,0 +1,1 @@
+In 2023, I did a few units on AWS Academy. I have included here two assignments I made for these units. Assignment 2 involved uploading a scalable, highly available photo album website. Assignment 3 was a design project I did with two others, examining alternative solutions for our website
