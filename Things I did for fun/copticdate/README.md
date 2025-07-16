@@ -2,8 +2,8 @@ In 2022, I wrote some code in Markdown to create two templates that would displa
 https://en.wikipedia.org/wiki/Coptic_calendar
 https://en.wikipedia.org/wiki/Era_of_the_Martyrs
 
-The code for these templates can be seen in these links (please do not actually edit them):
-https://en.wikipedia.org/w/index.php?title=Template:COPTICDATE&action=edit&oldid=1123386201
-https://en.wikipedia.org/w/index.php?title=Template:COPTICYEAR&action=edit
+The documentation for these templates can be seen at https://en.wikipedia.org/wiki/Template:COPTICDATE
 
 copticdate.html is a demonstration of that code, after I tediously converted it to javascript.
+
+Later, I used a similar (but more complex) approach to show the current date in the Julian calendar. This can be seen at https://en.wikipedia.org/wiki/Template:JULIANCALENDAR
