@@ -7,7 +7,7 @@ I currently work at PROVE, developing a complex internal website for the company
 6. Employees can read and acknowledge safe operating procedures
 7. There are six different roles, each granting different permissions. I am currently overhauling this system in favour of an improved one
 
-A staging version of this website can be tested at https://infra.proveng.com.au/. Opening this URL will show a screen saying that the website is insecure (since it is just for testing, so I did not set up a certificate as I did on the main site). Press "Advanced" the proceed anyway. Log in with the following credentials:
+A staging version of this website can be tested at https://infra.proveng.com.au/. Opening this URL will show a screen saying that the website is insecure (since it is just for testing, so I did not set up a certificate as I did on the main site). Press "Advanced" then proceed anyway. Log in with the following credentials:
     
     Email: mark@test.com
     Password: password
