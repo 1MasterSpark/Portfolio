@@ -25,6 +25,9 @@ A staging version of this website can be explored at https://infra.proveng.com.a
 
 You can then explore the website. Note that all job and employee names (besides my own) are fake and were created by a spoofer. Also note that, because this account's credentials are publicly available, I have limited its permissions.
 
+### Myob API
+The myob.py file attached was a test I used while I was integrating MYOB into my app. It will not work without my API key and secret, but it is here as a demonstration of what the API does.
+
 ## App
 For a specific job, I also developed a data entry app with the basic CRUD functions, as well as image uploading and data exporting functionalities. If you have an Android phone, you can try it by downloading the universal.apk file. Below is its tech stack:
 - **Framework**: React Native (with Expo) 

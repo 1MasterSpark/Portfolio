@@ -86,6 +86,31 @@ def trace_line(line, current_color, current_point=None):
         # Continue tracing recursively
         trace_line(next_line, current_color, current_point)
 
+def render_multiline_text(text, font, color, max_width):
+    # Splits text into multiple lines so it doesn't go off the screen
+    words = text.split(' ')
+    lines = []
+    current_line = ''
+
+    for word in words:
+        test_line = f"{current_line} {word}".strip()
+        if font.size(test_line)[0] <= max_width:
+            current_line = test_line
+        else:
+            lines.append(current_line)
+            current_line = word
+    if current_line:
+        lines.append(current_line)
+
+    line_surfaces = [font.render(line, True, color) for line in lines]
+    height = sum(s.get_height() for s in line_surfaces)
+    surface = pygame.Surface((max_width, height), pygame.SRCALPHA)
+    y = 0
+    for s in line_surfaces:
+        surface.blit(s, (0, y))
+        y += s.get_height()
+    return surface
+
 def count_closed_loops(lines):
     closed_loops = 0
 
@@ -109,10 +134,16 @@ current_line = Line()
 screen = pygame.display.set_mode([700, 500])
 screen.fill((0, 0, 255))
 
-# Add buttons
+# Add buttons and variables
 points_button = draw_button((0, 255, 0), "Add points", 510, 10)
 lines_button = draw_button((0, 255, 0), "Add lines", 510, 110)
 loops_button = draw_button((0, 255, 0), "Count loops", 510, 210)
+clear_button = draw_button((0, 255, 0), "Clear", 510, 310)
+font = pygame.font.SysFont(None, 36)
+big_font = pygame.font.SysFont(None, 72)
+loops_text = "Closed loops:"
+loops = 0
+error_mode = False
 
 running = True
 
@@ -135,9 +166,18 @@ while running:
                 if check_even_lines(points):
                     # Count and print the number of closed loops
                     loops = count_closed_loops(lines)
-                    print(f"Number of closed loops: {loops}")
+                    loops_text = "Closed loops:"
+                    error_mode = False
                 else:
-                     print(f"There are at least two points with an odd number of lines")
+                    loops_text = "Error: There are points with an odd number of lines"
+                    loops = 0
+                    error_mode = True
+            elif clear_button.collidepoint(x, y):
+                points = []
+                lines = []
+                loops = 0
+                loops_text = "Closed loops:"
+                error_mode = False
 
             elif 0 <= x <= 500 and 0 <= y <= 500:
                 if current_mode == 'point':
@@ -163,6 +203,7 @@ while running:
                         current_line.set_startpoint(new_point)
 
     pygame.draw.rect(screen, (255, 255, 255), pygame.Rect(0, 0, 500, 500))
+    pygame.draw.rect(screen, (0, 0, 255), pygame.Rect(500, 400, 200, 500))
     point_surface = pygame.Surface((500, 500), pygame.SRCALPHA)
     line_surface = pygame.Surface((500, 500), pygame.SRCALPHA)
 
@@ -171,8 +212,21 @@ while running:
     for point in points:
         point.draw(point_surface)
 
+    if error_mode:
+        text_surface = render_multiline_text(loops_text, font, (255, 0, 0), 190)
+        screen.blit(text_surface, (505, 405))
+    else:
+        text1_surface = font.render(loops_text, True, (255, 255, 255))
+        text2_surface = big_font.render(str(loops), True, (255, 255, 255))
+        screen.blit(text1_surface, (510, 410))
+        screen.blit(text2_surface, (510, 440))
     screen.blit(line_surface, (0, 0))
     screen.blit(point_surface, (0, 0))
+
+    if current_mode == 'line' and current_line.startpoint:
+        mouse_x, mouse_y = pygame.mouse.get_pos()
+        if mouse_x < 500:  # Only draw in the drawing area
+            pygame.draw.line(screen, (255, 0, 0), (current_line.startpoint.x, current_line.startpoint.y), (mouse_x, mouse_y), 5)
     pygame.display.flip()
 
 pygame.quit()
